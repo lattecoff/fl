@@ -1,0 +1,183 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.partners .container {
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 130px 0 80px;
+
+	.title {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 46px;
+		line-height: 57px;
+		text-align: center;
+		letter-spacing: 0.2px;
+		color: #252B42;
+	}
+
+	.subtitle {
+		max-width: 300px;
+		margin: 0 auto;
+		padding: 30px 0 100px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		letter-spacing: 0.2px;
+		color: #374754;
+	}
+
+	.ls-partners {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+		.ls-partners__item {
+			max-width: 33%;
+			// min-height: 345px;
+			padding: 0 35px 95px;
+			text-align: center;
+
+			h5 {
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 12px;
+				line-height: 18px;
+				letter-spacing: 0.1px;
+				color: #374754;
+			}
+
+			.client-logo {
+				padding: 25px 0;
+			}
+
+			.client-desc {
+				max-width: 220px;
+				min-height: 135px;
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 27px;
+				text-align: center;
+				letter-spacing: 0.2px;
+				color: #374754;
+			}
+		}
+	}
+
+	.btn {
+		width: 240px;
+		height: 65px;
+		margin: 0 auto;
+		padding: 16px 0px;
+		text-align: center;
+		background: #38A3F1;
+		border-radius: 35px;
+
+		.inscription a {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 22px;
+			line-height: 33px;
+			letter-spacing: 0.1px;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+	}
+}
+
+.testimonials .container {
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 110px 0 115px;
+
+	.title {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 46px;
+		line-height: 57px;
+		text-align: center;
+		letter-spacing: 0.2px;
+		color: #252B42;
+	}
+
+	&>p {
+		padding: 90px 0 60px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.subtitle {
+		max-width: 645px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.person {
+		display: flex;
+		max-width: 160px;
+		max-height: 60px;
+		margin: 60px auto 80px;
+		// padding: 60px 0 80px;
+
+		&__info {
+			max-width: 110px;
+			padding-left: 15px;
+
+			h5 {
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 12px;
+				line-height: 18px;
+				letter-spacing: 0.1px;
+				color: #374754;
+			}
+	
+			p {
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 27px;
+				letter-spacing: 0.2px;
+				color: #252B42;
+			}
+		}
+	}
+
+	.btn {
+		width: 240px;
+		height: 65px;
+		margin: 0 auto;
+		padding: 16px 0px;
+		text-align: center;
+		background: #38A3F1;
+		border-radius: 35px;
+
+		.inscription a {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 22px;
+			line-height: 33px;
+			letter-spacing: 0.1px;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+	}
+
+
+}
+
